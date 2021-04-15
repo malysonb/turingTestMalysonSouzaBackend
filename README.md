@@ -34,14 +34,14 @@ E estará rodando normalmente (caso o banco esteja rodando).
 Você poderá testar a API com ferramentas como Postman
 
 #### Adicionar Contato:
-POST: localhost:8080/agenda/contato
-body:
-{
-    "nome":"Raul Seixas",
-    "apelido":"Raulzito",
-    "numeroPrincipal":"(84) 6666-6666",
-    "numeroSecundario":"",
-    "email":"raul@seixas.com"
+POST: localhost:8080/agenda/contato<br>
+body:<br>
+{<br>
+    "nome":"Raul Seixas",<br>
+    "apelido":"Raulzito",<br>
+    "numeroPrincipal":"(84) 6666-6666",<br>
+    "numeroSecundario":"",<br>
+    "email":"raul@seixas.com"<br>
 }
 
 #### Listar todos contatos:
@@ -51,27 +51,27 @@ GET: localhost:8080/agenda/contato
 GET: localhost:8080/agenda/contato/{id}
 
 #### Editar contato:
-PUT: localhost:8080/agenda/contato
-body:
-{
-    "id": 1,
-    "nome":"Raul Seixas",
-    "apelido":"Raulzito",
-    "numeroPrincipal":"(84) 6666-6666",
-    "numeroSecundario":"(21) 6969-69696",
-    "email":"raul@seixas.com"
+PUT: localhost:8080/agenda/contato<br>
+body:<br>
+{<br>
+    "id": 1,<br>
+    "nome":"Raul Seixas",<br>
+    "apelido":"Raulzito",<br>
+    "numeroPrincipal":"(84) 6666-6666",<br>
+    "numeroSecundario":"(21) 6969-69696",<br>
+    "email":"raul@seixas.com"<br>
 }
 
 #### Deletar contato dado o objeto:
-DELETE: localhost:8080/agenda/contato
-body:
-{
-    "id": 1,
-    "nome":"Raul Seixas",
-    "apelido":"Raulzito",
-    "numeroPrincipal":"(84) 6666-6666",
-    "numeroSecundario":"(21) 6969-69696",
-    "email":"raul@seixas.com"
+DELETE: localhost:8080/agenda/contato<br>
+body:<br>
+{<br>
+    "id": 1,<br>
+    "nome":"Raul Seixas",<br>
+    "apelido":"Raulzito",<br>
+    "numeroPrincipal":"(84) 6666-6666",<br>
+    "numeroSecundario":"(21) 6969-69696",<br>
+    "email":"raul@seixas.com"<br>
 }
 
 #### Deletar contato dado o id:
