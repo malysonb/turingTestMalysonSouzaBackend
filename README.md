@@ -29,7 +29,7 @@ E estará rodando normalmente (caso o banco esteja rodando).
 
 <hr>
 
-### Abrindo e testando pelo Swagger
+### Abrindo e testando e Swagger
 
 Você poderá testar a API com ferramentas como Postman
 
