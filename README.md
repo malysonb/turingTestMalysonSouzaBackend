@@ -22,7 +22,7 @@ ou
   > mvnw package
 
 - vá até a pasta target e execute
-  > cd target
+  > cd target<br>
   > Java -jar turingtest-1.0.0-Release.jar
 
 E estará rodando normalmente (caso o banco esteja rodando).
