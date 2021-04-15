@@ -2,10 +2,10 @@
 
 ### Requisitos:
 
-* Ter um servidor postgres rodando no fundo na porta 5432.
-username:postgres
-senha:123456
-(podendo ser alterado em aplication.properties)
+* Ter um servidor postgres rodando no fundo na porta 5432.<br>
+username:postgres<br>
+senha:123456<br>
+(podendo ser alterado em aplication.properties)<br>
 Database chamado "postgres" (padrão do postgres) com schema "public"
 
 * Openjdk15 (opcional)
